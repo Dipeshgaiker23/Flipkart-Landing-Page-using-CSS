@@ -1,0 +1,26 @@
+.flex-all-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    cursor: pointer;
+    background: #00c3ffab;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 2px 2px;
+}
+
+.h2-1{
+    margin: 12px 0;
+}
+
+.h2-2{
+    margin: 5px 0;
+}
+
+.text-center{
+    text-align: center;
+}

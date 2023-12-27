@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #0e44e6;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 98px;
+    padding: 0 25px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 22px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(170, 171, 236);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 19px;
+    width: 30vw;
+    border-radius: 4px;
+    margin: 0 5px 0 56px;
+    padding: 0 8px;
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.btn {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cart{
+    display: flex;
+    mix-blend-mode: multiply;
+    padding:0 123px;
+}
+
+.container {
+    min-height: calc(100vh - 8vh - 6vh);
+}
+
+.slider {
+    display: flex;
+    margin: 12px auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider img{
+    margin: 23px;
+}
+
+.card {
+    max-width: 92vw;
+    margin: auto;
+}
+
+.cardx {
+    display: flex;
+    justify-content: center;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 23px;
+}
+
+.card h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 6vh;
+    background-color: #0e44e6;
+    color: white;
+}
